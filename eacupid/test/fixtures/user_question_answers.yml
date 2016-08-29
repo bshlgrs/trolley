@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  question: one
+  user: one
+  answer_index: 1
+  acceptable_answers: 
+  how_important: MyString
+
+two:
+  question: two
+  user: two
+  answer_index: 1
+  acceptable_answers: 
+  how_important: MyString

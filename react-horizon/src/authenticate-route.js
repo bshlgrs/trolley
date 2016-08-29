@@ -13,12 +13,11 @@ export default (ChildComponent) => {
         }
 
         componentDidMount() {
-            if(_horizon.hasAuthToken()) {
+            if (_horizon.hasAuthToken()) {
                 Horizon.getCurrentUser( (user) => {
                     this.setState({currentUser: user.id});
                 } );
             }
-
         }
 
         render () {

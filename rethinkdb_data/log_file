@@ -271,3 +271,8 @@
 2016-07-18T21:54:53.076511000 74.479353s info: Table 0d64b281-5f68-4937-b228-c9f994324bd0: This server is Raft leader for term 1. Latest log index is 0.
 2016-07-18T21:54:53.613201000 75.016043s info: Table 0d64b281-5f68-4937-b228-c9f994324bd0: Configuration is changing.
 2016-07-18T21:55:58.642276000 140.047420s info: Table 0d64b281-5f68-4937-b228-c9f994324bd0: Configuration is changing.
+2016-07-19T23:27:53.941908000 59937.787937s notice: Server got SIGINT from pid 85682, uid 501; shutting down...
+2016-07-19T23:27:53.942819000 59937.788845s notice: Shutting down client connections...
+2016-07-19T23:27:53.944897000 59937.790924s notice: All client connections closed.
+2016-07-19T23:27:53.944910000 59937.790936s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-07-19T23:27:53.986876000 59937.832903s notice: Storage engine shut down.
